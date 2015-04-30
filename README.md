@@ -20,7 +20,7 @@ stepping-stone model of population structure
 
 COMPILING
 
-gcc -Wall ggs.c kpop.c ggs_io.c -o ggs
+`gcc -Wall ggs.c kpop.c ggs_io.c -o ggs`
 
 EXAMPLE
 
