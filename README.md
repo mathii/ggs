@@ -15,6 +15,7 @@ limitations under the License.
 Grid Genotype Simulator
 - Coalescent simulator for genotypes from a
 stepping-stone model of population structure
+
 ***********************************************************************
 
 COMPILING
@@ -23,7 +24,7 @@ gcc -Wall ggs.c kpop.c ggs_io.c -o ggs
 
 EXAMPLE
 
-./ggs -K 10 -c 2 -M 0.01 -G 10 -L 100 -o genotypes.txt
+`./ggs -K 10 -c 2 -M 0.01 -G 10 -L 100 -o genotypes.txt -s 12345`
 
 ARGUMENTS
 
